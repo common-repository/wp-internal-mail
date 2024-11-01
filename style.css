@@ -1,0 +1,42 @@
+/* CSS Document */
+#logo{background-image:url(images/logo.png);background-repeat:no-repeat;width:181px;height:89px;min-height:89px;min-width:181px;float:left;margin-bottom:10px;}
+#search_mail{float:left;} 
+.mail_row div {float:left;background-color:white;min-height:18px;height:18px;}
+.mail_row a{text-decoration:none;color:#666;}
+.mail_row div:hover {background-color:#DBEBF6;}
+.when {min-width:62px;padding-right:5px;}
+.mail_row {clear:both;background-color:white;z-index:2;}
+#mail_rows {min-height:400px;height:400px;background-color:#DBEBF6;}
+.sender {width:100px;max-width:100px;min-width:100px;}
+.message{color:#999999;width:453px;max-width:453px;min-width:453px;}
+#mail_panel_header{width:433px;max-width:433px;}
+.message b{color:black;}
+.checkbox{width:25px;padding-left:5px;}
+.button {float:left;height:15px;font-size:10pt;}
+.button img{vertical-align:middle;}
+#archive, #archive_footer {font-weight:bold;}
+#delete, #delete_footer {margin-right:8px;}
+#toolbar_row {clear:both;}
+#toolbar_row_footer {}
+#mail_folders{float:left;width:95px;}
+#mail_folders ul li:hover{background-color:#4A9AD4;}
+#mail_folders a{text-decoration:none;}
+#mail_panel{float:left;padding:10px;background-color:#4A9AD4;min-height:400px;z-index:1;}
+#mail_panel form{width:630px;}
+#mail_content {width:630px;}
+#compose{font-weight:bold;margin:8px;margin-left:0px;}
+#move_folders,#move_folders_footer{display:none;background-color:white;z-index:1;position:absolute;width:120px;border:1px solid black;padding:8px;}
+#move_folders li{width:100%;}
+#move_folders a{width:100%;}
+#move_folders a:hover{background-color:#4A9AD4;}
+#more_actions_menu,#more_actions_menu_footer{display:none;background-color:white;z-index:1;position:absolute;width:120px;border:1px solid black;padding:8px;}
+#more_actions_menu li{width:100%;}
+#more_actions_menu a{width:100%;}
+#more_actions_menu a:hover{background-color:#4A9AD4;}
+#mail_footer{width:100%;text-align:center;}
+#refresh,#refresh_footer{width:50px;margin-left:15px;float:left;}
+#refresh a,#refresh_footer a{color:#FFFFFF;}
+#pagination,#pagination_footer{margin-left:5px;float:left}
+#pagination a,#pagination_footer a{color:#FFFFFF;}
+#select_row, #select_row_footer {color:#333;margin-bottom:8px;}
+#select_row a, #select_row_footer a{color:#FFFFFF;}
